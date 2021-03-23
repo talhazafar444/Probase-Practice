@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
 import { addPost } from "../../redux/actions/posts/post.actions";
 import { useForm } from "react-hook-form";
-import { ErrorMessage } from "../shared/error.messages";
+import { ErrorMessage } from "../shared-components/error-messages/error.messages";
 
 const AddPost = (props) => {
     const { register, handleSubmit, errors, formState } = useForm({ mode: 'onChange' });

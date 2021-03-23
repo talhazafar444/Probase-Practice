@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import { REQUIRED_MESSAGE, INVALID_EMAIL_MESSAGE } from '../constants'
+import { REQUIRED_MESSAGE, INVALID_EMAIL_MESSAGE } from '../../constants'
 
 export const ErrorMessage = (props) => {
     const emailRegex = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;

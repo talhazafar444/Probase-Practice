@@ -15,7 +15,7 @@ const PostList = ({ posts }) => {
 
 const getPostList = state => {
     return {
-        posts: state.postReducer.postList()
+        posts: state.postReducer.posts
     };
 };
 

@@ -1,0 +1,41 @@
+.siderbar {
+  background-color: $primary-color;
+  max-width: $sidebar-width;
+  padding: 15px;
+  flex: 1 0 0%;
+  position: fixed;
+  top: $navebar-height;
+}
+
+.sidebar-nav {
+  height: calc(100% - 80px);
+  overflow: auto;
+
+  ul {
+    list-style: none;
+    padding: 0;
+
+    li {
+      padding: 10px 5px;
+
+      a {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.2px;
+        color: $sidebar-nave;
+        text-decoration-line: none;
+        display: flex;
+
+        .nave-icon {
+          min-width: 35px;
+        }
+
+        span {
+          align-self: center !important;
+        }
+      }
+    }
+  }
+}

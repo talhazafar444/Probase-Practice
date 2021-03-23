@@ -4,3 +4,8 @@ export const POST_LIST = "POST_LIST";
 export const UPDATE_POST = "UPDATE_POST";
 export const DELETE_POST = "DELETE_POST";
 export const COMMENT_POST = "COMMENT_POST";
+
+//Users
+export const GET_USER = "GET_USER";
+export const SET_USER = "SET_USER";
+

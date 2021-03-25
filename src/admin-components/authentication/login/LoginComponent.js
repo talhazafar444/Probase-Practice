@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { connect } from "react-redux";
 import { login } from "../../../redux/actions/authentication/authenticationActions";
 import { useForm } from "react-hook-form";
-import { ErrorMessage } from "../../shared-components/error-messages/ErrorMessageComponent";
+import { ErrorMessage } from "../../shared-components/error-messages/error.messages";
 
 const LoginComponent = (props) => {
     const { register, handleSubmit, errors, formState } = useForm({ mode: 'onChange' });
